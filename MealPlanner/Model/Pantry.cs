@@ -117,15 +117,6 @@ namespace MealPlanner.Model
                         
                         IIngredient existingIngredient = GetIngredient(name);
                         ingredients[ingredient] = quantity;
-                        ///if (existingIngredient != null)
-                        ///{
-                           /// ingredients[existingIngredient] += quantity;
-                        ///}
-                        ///else
-                        ///{
-
-                            ///ingredients[ingredient] = quantity;
-                        ///}
                     }
                 }
             }
